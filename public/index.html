@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <link rel="stylesheet" href="./stylesheets/cart.css">
+    <script src="/socket.io.js"></script>
+    <title>Books</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="/images/book-shop.svg" width="40" height="40" alt="">
+        </div>
+        <div class="search_bar">
+            <form action="" id="search_bar_form">
+                <input type="text" id="search_bar_input">
+            </form>
+        </div>
+        <button id="myBtn"><img src="/images/shopping-cart.svg" width="25" height="25" alt=""></button>
+        <div class="cart modal" id="myModal">
+           <div id="modal-content">
+                <button class="close">&times;</button>
+                <a href="/order"><button class="buy_btn" onclick="">buy</button></a>
+           </div>
+        </div>
+        <div class="account">
+            <div class="user_photo"></div>
+        </div>
+    </header>
+    <main>
+        <section class="book_render_list">
+            <div id="ss"></div>
+        </section>
+    </main>
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="/javascripts/book/renderBooks.js"></script>
+<script src="/javascripts/cart/renderCart.js"></script>
+<script src="/javascripts/cart/addBookCart.js"></script>
+<script src="/javascripts/cart/openCart.js"></script>
+</html>

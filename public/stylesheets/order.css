@@ -1,0 +1,134 @@
+.book_order_container {
+    position: relative;
+    top: 100px;
+    margin: 0 auto;
+    width: 700px;
+    min-height: 500px;
+    background-color: #6C5454;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.upper_row_order {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.order_list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.book_order_ {
+    display: flex;
+    flex-direction: column;
+}
+
+.user_details_form {
+    display: flex;
+    flex-direction: column;
+}
+
+.pre_basic_form_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+ }
+ 
+ .pre_basic_form {
+     display: flex;
+     flex-direction: column;
+     margin: 50px;
+ }
+
+ .group {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .pre_basic_form input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #322B2B;
+    background-color: transparent;
+    color: #322B2B;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  label {
+    color: #C4C4C4;
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Roboto';
+    pointer-events: none;
+    left: 10px;
+    top: 15px;
+    transition: 0.2s ease all;
+  }
+  
+  input:focus ~ label, input:valid ~ label {
+    top: -15px;
+    font-size: 14px;
+    color: #d35959;
+  }
+  
+  .bar {
+    position: relative;
+    display: block;
+    width: 233px;
+  }
+
+  .bar:before, .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #C4C4C4;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+ 
+  input:focus ~ .bar:before,
+  input:focus ~ .bar:after {
+    width: 95%;
+  }
+
+.footer_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: flex-end;
+}
+
+.buy_btn {
+    width: 70px;
+    height: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Roboto';
+    background-color: #7DBB7B;
+}
+
+
+
+.total_price_style {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: white;
+}

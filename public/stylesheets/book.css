@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+
+.book_title {
+    font-family: 'Roboto';
+    text-align: center;
+    color: #A59191
+}
+
+.book_title_container {
+    margin: 60px;
+}
+
+.book_main_container {
+    display: flex;
+    flex-direction: row;
+}
+
+.book_image {
+   margin-left: 130px;
+}
+
+.book_description {
+    max-width: 300px;
+    display: inherit;
+    align-items: center;
+}
+
+.book_description_style {
+    font-family: 'Roboto';
+    color: #696060;
+    font-size: 20px;
+}
+
+.price_btn_container {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 250px;
+}
+
+.buy_btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #7DBB7B;
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.buy_btn button { 
+    background-color: transparent;
+}
+
+
+.price_style {
+    font-family: 'Roboto';
+    color: #C4C4C4;
+    font-size: 25px;
+}
+
+.section_article {
+    margin-top: 100px;
+    padding: 20px;
+}
+
+.article_style {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 22px;
+    color: #C4C4C4;
+    padding: 10px;
+}
+
+.charactres_container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+  
+}
+
+.char_row_container {
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+  
+}
+
+.pre_value_row {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 18px;
+    color: #C4C4C4;
+}
+
+.data_value_row {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 18px;
+    color: #6C5454;
+}
+
+.review_container {
+    text-align: center;
+}

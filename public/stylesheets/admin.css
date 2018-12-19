@@ -1,0 +1,179 @@
+/*upper row in admin panel */
+.upper_row {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.book_photo {
+    width: 160px;
+    height: 260px;
+    border-radius: 20px;
+}
+
+.admin_page_article_style {
+    font-family: 'Roboto';
+    letter-spacing: 2px;
+    color: #C4C4C4;
+    padding: 1px;
+    font-size: 20px;
+}
+
+
+/* aside in admin panel */
+
+.aside_btn_container {
+    padding: 20px;
+}
+
+.aside_btn {
+    width: 155px;
+    height: 30px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* book creation */
+
+.main_book_creator_container {
+    position: relative;
+    top: -150px;
+    margin: 0 auto;
+    width: 470px;
+    height: 925px;
+    background-color: #6C5454;
+    border-radius: 20px;
+}
+
+.pre_basic_form_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+ }
+ 
+ .pre_basic_form {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .group {
+    position: relative;
+    margin-bottom: 30px;
+  }
+  
+  .pre_basic_form input {
+    font-size: 16px;
+    padding: 10px;
+    display: block;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid #322B2B;
+    background-color: transparent;
+    color: #322B2B;
+  }
+
+  input:focus {
+    outline: none;
+  }
+
+  label {
+    color: #C4C4C4;
+    font-size: 12px;
+    position: absolute;
+    font-family: 'Roboto';
+    pointer-events: none;
+    left: 10px;
+    top: 15px;
+    transition: 0.2s ease all;
+  }
+  
+  input:focus ~ label, input:valid ~ label {
+    top: -15px;
+    font-size: 14px;
+    color: #d35959;
+  }
+  
+  .bar {
+    position: relative;
+    display: block;
+    width: 233px;
+  }
+
+  .bar:before, .bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    background: #C4C4C4;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+  }
+ 
+  input:focus ~ .bar:before,
+  input:focus ~ .bar:after {
+    width: 95%;
+  }
+
+ .description_area {
+     width: 300px;
+     height: 100px;
+     background-color: #C4C4C4;
+     border-radius: 20px;
+     padding: 20px;
+     margin: 20px;
+     resize: none;
+     outline: none;
+ }
+
+ .create_btn {
+     background-color: #322B2B;
+     color: #C4C4C4;
+     float: right;
+ }
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #C4C4C4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+      background-color: #ddd;
+      border-radius: 10px;
+    }
+  
+  .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+  .dropdown:hover .dropbtn {
+      background-color: #3e8e41;
+    }
+
+.book_photo_container {
+  display: flex;
+  flex-direction: column;
+}
+
+#addPicture {
+  margin-top: 20px;
+}

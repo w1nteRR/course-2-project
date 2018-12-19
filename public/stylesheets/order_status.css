@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+
+
+.order_container {
+    width: 500px;
+    height: 700px;
+    background-color: #554747;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.status_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    color: #C4C4C4;
+}
+
+.status_style {
+    font-family: 'Roboto'
+}
+
+.section_article {
+    margin: 20px 20px 30px 40px;
+
+}
+
+.section_article_customer {
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+.article_style {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 22px;
+    color: #C4C4C4;
+    padding: 10px;
+}
+
+.article_customer_style {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 16px;
+    color: #C4C4C4;
+    padding: 5px;
+}
+
+
+.book_amount {
+    width: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.book_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.book_info_container {
+    display: inherit;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.book_price_container {
+    display: inherit;
+    align-items: center;
+}
+
+.book_title {
+    font-family: 'Roboto';
+    text-align: center;
+    color: #A59191
+}
+
+.price_style {
+    font-family: 'Roboto';
+    font-weight: 100;
+    color: #C4C4C4;
+    font-size: 15px;
+}
+
+.charactres_container {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 20px;
+  
+}
+
+.char_row_container {
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+  
+}
+
+.pre_value_row {
+    font-family: 'Roboto';
+    font-weight: 100;
+    font-size: 15px;
+    color: #C4C4C4;
+}
+
+.data_value_row {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 15px;
+    color: #C4C4C4;
+}
+
+.buy_btn {
+    display: inherit;
+    align-items: center;
+    justify-content: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.button_container button { 
+    background-color: transparent;
+}
+
+.bottom_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.button_container {
+    display: inherit;
+    flex-direction: row;
+}
+
+.canceled {
+    color: #FF7268;
+}
+
+.ongoing {
+    color: #74A8FC;
+}
+
+.done {
+    color: #1BB977;
+}

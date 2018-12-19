@@ -1,0 +1,77 @@
+.cart_main_container {
+    width: 400px;
+    height: 460px;
+    background: linear-gradient(180deg, #6C5454 0%, rgba(108, 84, 84, 0) 100%);
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 20px;
+    
+}
+
+.upper_row {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+.book_container {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+.book_amount_container button {
+    background-color: transparent;
+}
+
+.book_amount_container {
+    padding: 50px;
+}
+
+
+.book_amount {
+    width: 30px;
+    margin: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+
+.price {
+    padding: 50px;
+}
+
+.delete_btn {
+    background-color: transparent;
+}
+
+.footer_nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    align-items: flex-end;
+}
+
+.buy_btn {
+    width: 70px;
+    height: 20px;
+    background-color: #7DBB7B;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Roboto';
+    cursor: pointer;
+}
+
+.total_price_style {
+    font-family: 'Roboto';
+    font-size: 15px;
+    color: white;
+}
+
+.render_book {
+    display: flex;
+    flex-direction: column;
+}

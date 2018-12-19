@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <link rel="stylesheet" href="./stylesheets/order.css">
+    <link rel="stylesheet" href="./stylesheets/admin.css">
+    <script src="./socket.io.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span><h5>logo</h5></span>
+        </div>
+        <div class="search_bar">
+            <form action="" id="search_bar_form">
+                <input type="text" id="search_bar_input">
+            </form>
+        </div>
+        <div class="account">
+            <div class="user_photo"></div>
+        </div>
+    </header>
+    <section>
+        <div>
+        <div class="book_order_container">
+            <div class="upper_row_order">
+                <div class="article_order">
+                    <span class="admin_page_article_style"><p>Your order</p></span>
+                    <hr size='1' color='#322B2B' width='300'>
+                </div>
+                <div class="cancel_btn">
+                    <img src="./images/error.svg" width="20" height="20" alt="">
+                </div>
+            </div>
+            <div class="order_list" id="book_container_order">
+
+            </div>
+            <form action="" class="pre_basic_form">
+                <div class="group">      
+                    <input type="text" required id="first_name_input">
+                    <span class="bar"></span>
+                    <label>First Name</label>
+                </div>
+                <div class="group">      
+                    <input type="text" required id="first_second_input">
+                    <span class="bar"></span>
+                    <label>Second Name</label>
+                </div>
+            </form>            
+            <div class="footer_nav">
+                <div class="total_price">
+                </div>
+                <button class="buy_btn" onclick="push()">
+                    <p>BUY</p>
+                </button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="./javascripts/cart/renderCart.js"></script>
+<script>
+
+
+</script>
+</body>
+
+</html>

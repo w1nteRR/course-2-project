@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./stylesheets/main.css">
+    <link rel="stylesheet" href="./stylesheets/admin.css">
+    <title>Document</title>
+    <script src="./socket.io.js"></script>
+    </head>
+    <body>
+    <header>
+        <div class="logo">
+            <span class='admin_page_article_style'><h3></h3></span>
+        </div>
+        <div class="account">
+            <div class="user_photo">
+
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside>
+            <div class="aside_btn_container">
+                <a href="/admin"><button class="aside_goods_btn aside_btn"><p>Goods</p></button>
+                </a>
+            </div>
+            <div class="dropdown aside_orders_btn ">
+               <a href="/orders"><button class="aside_btn">Orders</button></a>
+                <div class="dropdown-content">
+                  <a href="/orders/new">New</a>
+                  <a href="/orders/ongoing">Ongoing</a>
+                  <a href="/orders/done">Done</a>
+                  <a href="/orders/canceled">Canceled</a>
+                </div>
+              </div>
+        </aside>
+        <section class="book_creation">
+            <div class="upper_row">
+                <div class="admin_page_article">
+                    <span class="admin_page_article_style"><p>Create new good</p></span>
+                    <hr size='1' color='#6C5454' width='500'>
+                </div>
+               <div class="book_photo_container">
+                    <div class="book_photo">
+                        <img src="" id="book_photo" width="160" height="260" alt="">
+                    </div>
+                    <form id="testForm">
+                         <input type="file" id="fileField" />
+                    </form>
+               </div>
+            </div>
+            <div class="main_book_creator_container">
+                <div class="pre_basic_form_container login_form">
+                    <form action="" class="pre_basic_form">
+                        <div class="group">      
+                            <input type="text" required id="title_input">
+                            <span class="bar"></span>
+                            <label>Title</label>
+                        </div>
+                        <div class="group">      
+                            <input type="text" required id="author_input">
+                            <span class="bar"></span>
+                            <label>Author</label>
+                        </div>
+                        <div class="group">      
+                            <input type="text" required id="publisher_input">
+                            <span class="bar"></span>
+                            <label>Publisher</label>
+                        </div>
+                        <div class="group">      
+                            <input type="text" required id="price_input">
+                            <span class="bar"></span>
+                            <label>Price</label>
+                        </div>
+                        <div class="group">      
+                            <input type="text" required id="type_input">
+                            <span class="bar"></span>
+                            <label>Type</label>
+                        </div>
+                        <div>
+                            <textarea name="" id="description_input" class="description_area" placeholder="Description"></textarea>
+                        </div>
+                        <div>
+                            <textarea name="" id="review_input" class="description_area" placeholder="Review"></textarea>
+                        </div>
+                        
+                    </form>
+                    <button type="submit" class="aside_orders_btn aside_btn create_btn" onclick="createBook()">
+                            <p>Create</p>
+                    </button>
+                </div>
+            </div>
+           
+        </section>
+    </main>
+    <footer></footer>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="./javascripts/book/createBook.js"></script>
+</body>
+</html>
